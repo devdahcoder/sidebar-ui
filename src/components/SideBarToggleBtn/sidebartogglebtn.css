@@ -1,0 +1,34 @@
+.side--bar--toggle--icon--container {
+  position: absolute;
+  top: 90px;
+  left: 215px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0px solid #000;
+  align-items: stretch;
+  background: #383838;
+  width: 3em;
+  height: 3em;
+  border-radius: 100vh;
+  z-index: 9;
+}
+
+.side--bar--toggle--icon--container .side--bar--toggle--icon--btn {
+  font-size: 14px;
+  align-items: center;
+  background: 0 0;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  outline: none;
+  width: 100%;
+  height: 100%;
+}
+
+.side--bar--toggle--icon--container .side--bar--toggle--icon--btn svg {
+  transition: all 0.5s ease-in-out;
+}
+/*# sourceMappingURL=sidebartogglebtn.css.map */
